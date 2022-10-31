@@ -6,8 +6,7 @@
 }
 
 body {
-    background-image: url('https://th.bing.com/th/id/R.f1bc62df9ef22b534624b60c4d98eb23?rik=yE7BLBltOO1GCA&pid=ImgRaw&r=0');
-    background-size: 1366px 768px;
+    background-color: rgb(83, 82, 83);
 }
 
 li {
@@ -32,21 +31,26 @@ li {
     justify-content: center;
   }
 
-  #h3 {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
   #h1 {
     padding-top: 50px;
   }
 
   #h3p2 {
-    padding-left: 50px;
     font-weight: bold;
   }
 
-  #text {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 611px;
+  #img {
+    border: 5px solid white;
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-right: 250px;
+    margin-top: 6.25%;
+    transform: rotate(3deg);
+  }
+
+  #h1, #h2, #h3, #h3_2, #h3_3, #h2_2 {
+    margin-left: 25%;
+    margin-right: 50%;
+    text-align: center;
   }
